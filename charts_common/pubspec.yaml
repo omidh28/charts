@@ -1,5 +1,5 @@
 name: charts_shamsi_common
-version: 1.0.0
+version: 1.0.1
 description: A common library for charting packages with shamsi calender support.
 homepage: https://github.com/omidh28/charts
 
@@ -12,6 +12,7 @@ dependencies:
   logging: ^0.11.4
   meta: ^1.1.1
   vector_math: ^2.0.8
+  shamsi_date: ^0.8.1
 
 dev_dependencies:
   mockito: ^4.0.0

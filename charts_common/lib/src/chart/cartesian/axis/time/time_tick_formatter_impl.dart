@@ -15,6 +15,7 @@
 
 import 'package:intl/intl.dart' show DateFormat;
 import 'package:meta/meta.dart' show required;
+import 'package:shamsi_date/shamsi_date.dart';
 import '../../../../common/date_time_factory.dart' show DateTimeFactory;
 import 'time_tick_formatter.dart' show TimeTickFormatter;
 
@@ -36,20 +37,39 @@ class TimeTickFormatterImpl implements TimeTickFormatter {
       @required String simpleFormat,
       @required String transitionFormat,
       this.transitionField}) {
-        print('d');
-        print(_simpleFormat);
     _simpleFormat = dateTimeFactory.createDateFormat(simpleFormat);
     _transitionFormat = dateTimeFactory.createDateFormat(transitionFormat);
   }
 
   @override
-  String formatFirstTick(DateTime date) => _transitionFormat.format(date);
+  String formatFirstTick(DateTime date) {
+    final String locale = _transitionFormat.locale;
+    final Jalali shamsiDate = Jalali.fromDateTime(date);
+    final JalaliFormatter formatter = shamsiDate.formatter;
+    return locale == 'fa'
+        ? '${formatter.d} ${formatter.mN}'
+        : _transitionFormat.format(date);
+  }
 
   @override
-  String formatSimpleTick(DateTime date) => _simpleFormat.format(date);
+  String formatSimpleTick(DateTime date) {
+    final String locale = _simpleFormat.locale;
+    final Jalali shamsiDate = Jalali.fromDateTime(date);
+    final JalaliFormatter formatter = shamsiDate.formatter;
+    return locale == 'fa'
+        ? '${formatter.d} ${formatter.mN}'
+        : _simpleFormat.format(date);
+  }
 
   @override
-  String formatTransitionTick(DateTime date) => _transitionFormat.format(date);
+  String formatTransitionTick(DateTime date) {
+    final String locale = _transitionFormat.locale;
+    final Jalali shamsiDate = Jalali.fromDateTime(date);
+    final JalaliFormatter formatter = shamsiDate.formatter;
+    return locale == 'fa'
+        ? '${formatter.d} ${formatter.mN}'
+        : _transitionFormat.format(date);
+  }
 
   @override
   bool isTransition(DateTime tickValue, DateTime prevTickValue) {
