@@ -15,15 +15,15 @@
 
 import 'dart:math';
 
-import 'package:charts_common/src/chart/cartesian/cartesian_chart.dart';
-import 'package:charts_common/src/chart/cartesian/axis/axis.dart';
-import 'package:charts_common/src/chart/common/base_chart.dart';
-import 'package:charts_common/src/chart/common/datum_details.dart';
-import 'package:charts_common/src/chart/common/processed_series.dart';
-import 'package:charts_common/src/chart/common/behavior/slider/slider.dart';
-import 'package:charts_common/src/chart/common/behavior/selection/selection_trigger.dart';
-import 'package:charts_common/src/common/gesture_listener.dart';
-import 'package:charts_common/src/data/series.dart';
+import 'package:charts_shamsi_common/src/chart/cartesian/cartesian_chart.dart';
+import 'package:charts_shamsi_common/src/chart/cartesian/axis/axis.dart';
+import 'package:charts_shamsi_common/src/chart/common/base_chart.dart';
+import 'package:charts_shamsi_common/src/chart/common/datum_details.dart';
+import 'package:charts_shamsi_common/src/chart/common/processed_series.dart';
+import 'package:charts_shamsi_common/src/chart/common/behavior/slider/slider.dart';
+import 'package:charts_shamsi_common/src/chart/common/behavior/selection/selection_trigger.dart';
+import 'package:charts_shamsi_common/src/common/gesture_listener.dart';
+import 'package:charts_shamsi_common/src/data/series.dart';
 
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';

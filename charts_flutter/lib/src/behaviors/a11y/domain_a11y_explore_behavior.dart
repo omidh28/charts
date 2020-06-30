@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common/common.dart' as common
+import 'package:charts_shamsi_common/charts_shamsi_common.dart' as common
     show DomainA11yExploreBehavior, VocalizationCallback, ExploreModeTrigger;
 import 'package:flutter/widgets.dart' show hashValues;
 import '../chart_behavior.dart' show ChartBehavior, GestureType;

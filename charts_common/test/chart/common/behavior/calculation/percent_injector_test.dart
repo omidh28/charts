@@ -13,12 +13,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:charts_common/src/chart/cartesian/cartesian_chart.dart';
-import 'package:charts_common/src/chart/common/base_chart.dart';
-import 'package:charts_common/src/chart/common/processed_series.dart'
+import 'package:charts_shamsi_common/src/chart/cartesian/cartesian_chart.dart';
+import 'package:charts_shamsi_common/src/chart/common/base_chart.dart';
+import 'package:charts_shamsi_common/src/chart/common/processed_series.dart'
     show MutableSeries;
-import 'package:charts_common/src/chart/common/behavior/calculation/percent_injector.dart';
-import 'package:charts_common/src/data/series.dart' show Series;
+import 'package:charts_shamsi_common/src/chart/common/behavior/calculation/percent_injector.dart';
+import 'package:charts_shamsi_common/src/data/series.dart' show Series;
 
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';

@@ -15,7 +15,7 @@
 
 import 'dart:collection' show LinkedHashMap;
 
-import 'package:charts_common/common.dart' as common
+import 'package:charts_shamsi_common/charts_shamsi_common.dart' as common
     show
         AxisSpec,
         DateTimeFactory,

@@ -15,16 +15,16 @@
 
 import 'dart:math' show Rectangle;
 
-import 'package:charts_common/src/chart/cartesian/axis/axis.dart';
-import 'package:charts_common/src/chart/cartesian/axis/numeric_tick_provider.dart';
-import 'package:charts_common/src/chart/cartesian/axis/tick_formatter.dart';
-import 'package:charts_common/src/chart/cartesian/axis/linear/linear_scale.dart';
-import 'package:charts_common/src/chart/common/base_chart.dart';
-import 'package:charts_common/src/chart/common/chart_context.dart';
-import 'package:charts_common/src/chart/common/behavior/range_annotation.dart';
-import 'package:charts_common/src/chart/line/line_chart.dart';
-import 'package:charts_common/src/common/material_palette.dart';
-import 'package:charts_common/src/data/series.dart';
+import 'package:charts_shamsi_common/src/chart/cartesian/axis/axis.dart';
+import 'package:charts_shamsi_common/src/chart/cartesian/axis/numeric_tick_provider.dart';
+import 'package:charts_shamsi_common/src/chart/cartesian/axis/tick_formatter.dart';
+import 'package:charts_shamsi_common/src/chart/cartesian/axis/linear/linear_scale.dart';
+import 'package:charts_shamsi_common/src/chart/common/base_chart.dart';
+import 'package:charts_shamsi_common/src/chart/common/chart_context.dart';
+import 'package:charts_shamsi_common/src/chart/common/behavior/range_annotation.dart';
+import 'package:charts_shamsi_common/src/chart/line/line_chart.dart';
+import 'package:charts_shamsi_common/src/common/material_palette.dart';
+import 'package:charts_shamsi_common/src/data/series.dart';
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';
 

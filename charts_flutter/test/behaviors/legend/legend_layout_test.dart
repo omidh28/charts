@@ -17,7 +17,7 @@ import 'package:flutter/material.dart';
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';
 
-import 'package:charts_flutter/src/behaviors/legend/legend_layout.dart';
+import 'package:charts_shamsi_flutter/src/behaviors/legend/legend_layout.dart';
 
 class MockContext extends Mock implements BuildContext {}
 

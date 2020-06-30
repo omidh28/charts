@@ -15,13 +15,13 @@
 
 import 'dart:math' show Rectangle, pi;
 
-import 'package:charts_common/src/common/color.dart';
-import 'package:charts_common/src/common/graphics_factory.dart';
-import 'package:charts_common/src/common/text_element.dart';
-import 'package:charts_common/src/common/text_style.dart';
-import 'package:charts_common/src/chart/cartesian/axis/spec/axis_spec.dart';
-import 'package:charts_common/src/chart/common/chart_canvas.dart';
-import 'package:charts_common/src/data/series.dart';
+import 'package:charts_shamsi_common/src/common/color.dart';
+import 'package:charts_shamsi_common/src/common/graphics_factory.dart';
+import 'package:charts_shamsi_common/src/common/text_element.dart';
+import 'package:charts_shamsi_common/src/common/text_style.dart';
+import 'package:charts_shamsi_common/src/chart/cartesian/axis/spec/axis_spec.dart';
+import 'package:charts_shamsi_common/src/chart/common/chart_canvas.dart';
+import 'package:charts_shamsi_common/src/data/series.dart';
 import 'package:meta/meta.dart';
 
 import 'treemap_renderer_decorator.dart';

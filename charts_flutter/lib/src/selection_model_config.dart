@@ -15,7 +15,7 @@
 
 import 'package:meta/meta.dart' show immutable;
 
-import 'package:charts_common/common.dart' as common;
+import 'package:charts_shamsi_common/charts_shamsi_common.dart' as common;
 
 @immutable
 class SelectionModelConfig<D> {

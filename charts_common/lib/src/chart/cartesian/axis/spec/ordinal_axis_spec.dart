@@ -26,7 +26,7 @@ import 'axis_spec.dart'
 import 'tick_spec.dart' show TickSpec;
 import '../ordinal_scale.dart' show OrdinalScale;
 import '../simple_ordinal_scale.dart' show SimpleOrdinalScale;
-import 'package:charts_common/src/chart/cartesian/axis/scale.dart'
+import 'package:charts_shamsi_common/src/chart/cartesian/axis/scale.dart'
     show RangeBandConfig;
 
 /// [AxisSpec] specialized for ordinal/non-continuous axes typically for bars.

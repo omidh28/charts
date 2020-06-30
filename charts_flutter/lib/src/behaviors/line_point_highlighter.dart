@@ -14,7 +14,7 @@
 // limitations under the License.
 
 import 'package:collection/collection.dart' show ListEquality;
-import 'package:charts_common/common.dart' as common
+import 'package:charts_shamsi_common/charts_shamsi_common.dart' as common
     show
         LinePointHighlighter,
         LinePointHighlighterFollowLineType,

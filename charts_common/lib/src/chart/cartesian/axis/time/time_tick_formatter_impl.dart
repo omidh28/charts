@@ -36,6 +36,8 @@ class TimeTickFormatterImpl implements TimeTickFormatter {
       @required String simpleFormat,
       @required String transitionFormat,
       this.transitionField}) {
+        print('d');
+        print(_simpleFormat);
     _simpleFormat = dateTimeFactory.createDateFormat(simpleFormat);
     _transitionFormat = dateTimeFactory.createDateFormat(transitionFormat);
   }

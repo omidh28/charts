@@ -15,8 +15,8 @@
 
 import 'dart:math' show Rectangle;
 
-import 'package:charts_common/src/chart/common/chart_canvas.dart';
-import 'package:charts_common/src/common/graphics_factory.dart';
+import 'package:charts_shamsi_common/src/chart/common/chart_canvas.dart';
+import 'package:charts_shamsi_common/src/common/graphics_factory.dart';
 import 'package:meta/meta.dart';
 
 import 'treemap_renderer_element.dart';

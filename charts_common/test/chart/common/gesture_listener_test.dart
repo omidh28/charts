@@ -14,8 +14,8 @@
 // limitations under the License.
 
 import 'dart:math' show Point;
-import 'package:charts_common/src/common/gesture_listener.dart';
-import 'package:charts_common/src/common/proxy_gesture_listener.dart';
+import 'package:charts_shamsi_common/src/common/gesture_listener.dart';
+import 'package:charts_shamsi_common/src/common/proxy_gesture_listener.dart';
 import 'package:test/test.dart';
 
 void main() {

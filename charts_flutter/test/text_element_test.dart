@@ -16,8 +16,8 @@
 import 'package:flutter/material.dart' show BuildContext;
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';
-import 'package:charts_flutter/src/graphics_factory.dart';
-import 'package:charts_flutter/src/text_element.dart';
+import 'package:charts_shamsi_flutter/src/graphics_factory.dart';
+import 'package:charts_shamsi_flutter/src/text_element.dart';
 
 class MockContext extends Mock implements BuildContext {}
 
